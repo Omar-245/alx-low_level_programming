@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 /**
- * main enrty point
+ * main - entry point
  *
- * description: true or false validation
+ * Description: false or true validation
  *
- * return 0 (success)
+ * Return: 0 (success)
 */
 
-int main(void) 
+int main(void)
 {
 	int n;
 
@@ -21,6 +21,6 @@ int main(void)
 	else if (n == 0)
 		printf("%i is zero\n", n);
 	else
-		printf("%i is is negative\n", n);
+		printf("%i is negative\n", n);
 	return (0);
 }
