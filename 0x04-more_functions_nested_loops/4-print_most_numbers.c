@@ -1,21 +1,19 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * print_most_numbers
- * from 2 and 4 and you can
- *
- * Return: 0 (success)
-*/
-
+ * print_most_numbers - check the code for Holberton School students.
+ * Return: Always 0.
+ */
 void print_most_numbers(void)
 {
-	int num;
+	char c = '0';
 
-	for (num = 0; num <= 9; num++)
+	while (c <= '9')
 	{
-		if (num == 2 || num == 4)
-		      continue;
-	_putchar(num + 48);
+		if (c != '2' && c != '4')
+		{
+			_putchar(c);
+		}
+	c++;
 	}
-	_putcahr('\n');
+_putchar('\n');
 }

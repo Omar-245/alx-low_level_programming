@@ -1,17 +1,15 @@
-#include <main.h>
-
+#include "holberton.h"
 /**
- *_isupper - chech if c is upper
- *
- * @c: input for alphapet
- *
- * Return: 1 if its uppercase, 0 if not
+ * _isupper - function that checks for uppercase character.
+ * @c: the int for the paramaters of my function
+ * Return: 0
  */
-
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
-		return (1);
+	{
+	return (1);
+	}
 	else
-		return (0);
+	return (0);
 }

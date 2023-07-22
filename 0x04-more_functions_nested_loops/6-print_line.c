@@ -1,23 +1,22 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * print _line - print a straight line
- *
- * @n:is the number of times the _ chracter
- * should be printed
-*/
-
+ * print_line - function that checks for uppercase character.
+ * @n: is the integer for the paramaters of my function
+ * Return: 0
+ */
 void print_line(int n)
 {
-	int lnChr;
+	int a = 0;
 
-	if (n <= 0)
-		_putchar('\n');
-	else 
+	if (n > 0)
 	{
-		for (lnChr = 1; lnChr <= n; lnChr++)
-		       _putchar('_');
-	_putchar('\n');
+		while (a <= n)
+		{
+			_putchar('_');
+			a++;
+		}
+	 _putchar('\n');
 	}
-}	
-	
+	else
+	_putchar('\n');
+}
